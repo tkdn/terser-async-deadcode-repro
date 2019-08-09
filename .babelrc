@@ -1,0 +1,16 @@
+{
+    "presets": [
+        ["@babel/env", {
+            "targets": {
+                "chrome": 60,
+                "ie": 11,
+                "safari": 10
+            }
+        }],
+        "@babel/typescript"
+    ],
+    "plugins": [
+        "@babel/proposal-class-properties",
+        "@babel/proposal-object-rest-spread"
+    ]
+}
